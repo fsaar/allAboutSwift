@@ -1,0 +1,6 @@
+framework module Pods_smebupTests {
+  umbrella header "Pods-smebupTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

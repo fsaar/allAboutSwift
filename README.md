@@ -6,5 +6,9 @@ Nectar iOS app, this repository is contains the code for the blog allAboutSwift 
 
 #### OptionalProtocols 
 
-sample to demonstrate better compiler checks trough type erasure of classes conforming to optional protocols
+sample to demonstrate better compiler checks trough type erasure of classes conforming to optional protocols (Swift 2.1.1)
+
+#### sembup.quick_and_nimble 
+
+sample app to show how to write tests with quick & nimble (Swift 2.1.1)
 

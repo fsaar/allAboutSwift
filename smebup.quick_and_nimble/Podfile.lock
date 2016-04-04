@@ -1,0 +1,18 @@
+PODS:
+  - Gloss (0.6.2)
+  - Nimble (3.1.0)
+  - Quick (0.9.1)
+
+DEPENDENCIES:
+  - Gloss (~> 0.6.2)
+  - Nimble (= 3.1.0)
+  - Quick (~> 0.9.1)
+
+SPEC CHECKSUMS:
+  Gloss: 22fd970682b5449e08e2f41c5087eefe7d7d084b
+  Nimble: 79d40f4d69d47314229bbabacaa02b8838c779b9
+  Quick: a5221fc21788b6aeda934805e68b061839bc3165
+
+PODFILE CHECKSUM: 161af2c9334352772872905a8b33de9ad47a03ed
+
+COCOAPODS: 1.0.0.beta.3
