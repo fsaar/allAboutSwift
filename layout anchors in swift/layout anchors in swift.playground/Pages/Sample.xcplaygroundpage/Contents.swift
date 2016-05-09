@@ -1,22 +1,12 @@
-//:# layout anchors in swift
+//:## Layout anchors in Swift
 import UIKit
-import XCPlayground
+let window = playgroundWithWindow(CGRect(x: 0, y: 0, width: 400, height: 400))
 
-//: Playground setup
+//:### Laying out views with anchors
 
-let c = UIViewController()
-let window = UIView(frame: CGRect(x: 0, y: 0, width: 400, height: 400))
-window.clipsToBounds = false
-window.backgroundColor = UIColor.whiteColor()
-XCPlaygroundPage.currentPage.needsIndefiniteExecution = true
-XCPlaygroundPage.currentPage.liveView = window
-
-//: Laying out views with anchors
-
-let view1 = UIView(frame: .zero)
-view1.translatesAutoresizingMaskIntoConstraints = false
-view1.backgroundColor = UIColor.blueColor()
+let view1 = viewWithColor(UIColor.blueColor())
 window.addSubview(view1)
+
 
 view1.topAnchor.constraintEqualToAnchor(window.topAnchor,constant: 10).active = true
 view1.leadingAnchor.constraintEqualToAnchor(window.leadingAnchor,constant: 10).active = true
@@ -24,9 +14,7 @@ view1.widthAnchor.constraintEqualToAnchor(window.widthAnchor, multiplier: 0.3).a
 view1.heightAnchor.constraintEqualToAnchor(view1.widthAnchor, multiplier: 1).active = true
 
 
-let view6 = UIView(frame: .zero)
-view6.translatesAutoresizingMaskIntoConstraints = false
-view6.backgroundColor = UIColor.yellowColor()
+let view6 = viewWithColor(UIColor.yellowColor())
 window.addSubview(view6)
 
 view6.topAnchor.constraintEqualToAnchor(window.topAnchor,constant: 10).active = true
@@ -36,19 +24,15 @@ view6.heightAnchor.constraintEqualToAnchor(view1.heightAnchor, multiplier: 1).ac
 
 
 
-let view2 = UIView(frame: .zero)
-view2.translatesAutoresizingMaskIntoConstraints = false
-view2.backgroundColor = UIColor.redColor()
-
+let view2 = viewWithColor(UIColor.redColor())
 window.addSubview(view2)
+
 view2.topAnchor.constraintEqualToAnchor(window.topAnchor,constant: 10).active = true
 view2.trailingAnchor.constraintEqualToAnchor(window.trailingAnchor,constant: -10).active = true
 view2.widthAnchor.constraintEqualToAnchor(window.widthAnchor, multiplier: 0.3).active = true
 view2.heightAnchor.constraintEqualToAnchor(view2.widthAnchor, multiplier: 1).active = true
 
-let view3 = UIView(frame: .zero)
-view3.translatesAutoresizingMaskIntoConstraints = false
-view3.backgroundColor = UIColor.greenColor()
+let view3 = viewWithColor(UIColor.greenColor())
 window.addSubview(view3)
 
 view3.centerYAnchor.constraintEqualToAnchor(window.centerYAnchor,constant: 0).active = true
@@ -56,9 +40,7 @@ view3.trailingAnchor.constraintEqualToAnchor(window.trailingAnchor,constant: -10
 view3.widthAnchor.constraintEqualToAnchor(window.widthAnchor, multiplier: 0.3).active = true
 view3.heightAnchor.constraintEqualToAnchor(view1.widthAnchor, multiplier: 1).active = true
 
-let centerView = UIView(frame: .zero)
-centerView.translatesAutoresizingMaskIntoConstraints = false
-centerView.backgroundColor = UIColor.grayColor()
+let centerView = viewWithColor(UIColor.grayColor())
 window.addSubview(centerView)
 
 centerView.centerXAnchor.constraintEqualToAnchor(window.centerXAnchor).active = true
@@ -66,7 +48,7 @@ centerView.centerYAnchor.constraintEqualToAnchor(window.centerYAnchor).active = 
 centerView.widthAnchor.constraintEqualToAnchor(window.widthAnchor, multiplier: 0.3).active = true
 centerView.heightAnchor.constraintEqualToAnchor(centerView.widthAnchor, multiplier: 1).active = true
 
-//: Using layout guides
+//:### Using layout guides
 
 let layoutGuide1 = UILayoutGuide()
 window.addLayoutGuide(layoutGuide1)
@@ -81,9 +63,7 @@ layoutGuide2.heightAnchor.constraintEqualToConstant(1).active = true
 layoutGuide2.rightAnchor.constraintEqualToAnchor(window.rightAnchor).active = true
 
 
-let view4 = UIView(frame: .zero)
-view4.translatesAutoresizingMaskIntoConstraints = false
-view4.backgroundColor = UIColor.purpleColor()
+let view4 = viewWithColor(UIColor.purpleColor())
 window.addSubview(view4)
 
 let bottomAnchorConstraint = view4.bottomAnchor.constraintEqualToAnchor(window.bottomAnchor)
