@@ -15,3 +15,7 @@ sample app to show how to write tests with quick & nimble (Swift 2.1.1)
 #### layout anchors in swift
 
 playground that shows the usage of layout anchors introduced with iOS9 
+
+#### StackViews in IOS 9 
+
+playground that shows the usage of Stackviews in iOS9 
