@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="AASWeatherData" representedClassName=".AASWeatherData" syncable="YES">
+        <attribute name="airFrost" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="location" attributeType="String" syncable="YES"/>
+        <attribute name="maxTemp" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="minTemp" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="month" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="rainInMM" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sunHours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AASWeatherData" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>
