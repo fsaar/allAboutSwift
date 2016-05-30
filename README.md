@@ -19,3 +19,7 @@ playground that shows the usage of layout anchors introduced with iOS9
 #### StackViews 
 
 contains playground that shows the usage of Stackviews in iOS9 
+
+#### AsynchronousCoreData
+
+Sample application to test the performance of asynchronous core data requests
