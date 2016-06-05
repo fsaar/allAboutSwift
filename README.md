@@ -23,3 +23,8 @@ contains playground that shows the usage of Stackviews in iOS9
 #### AsynchronousCoreData
 
 Sample application to test the performance of asynchronous core data requests
+
+#### NSProgress 
+
+Sample application that shows the usage of NSProgress 
+
