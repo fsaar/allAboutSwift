@@ -28,3 +28,7 @@ Sample application to test the performance of asynchronous core data requests
 
 Sample application that shows the usage of NSProgress 
 
+#### ProtocolExtensions 
+
+Sample playground to show the dispatch rules for classes & protocols with default implmenetations 
+
