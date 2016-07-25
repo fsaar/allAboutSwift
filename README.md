@@ -32,3 +32,7 @@ Sample application that shows the usage of NSProgress
 
 Sample playground to show the dispatch rules for classes & protocols with default implmenetations 
 
+#### GCD with Swift 3 
+
+Sample playground to demonstrate the new Swift 3 GCD API 
+
